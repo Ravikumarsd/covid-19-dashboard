@@ -15,7 +15,7 @@ class StateTable extends Component {
     this.setState({ stateCode: statecode });
     const statewise = this.props.statewise;
     const stateInfo = util.getHoveredStateData(statewise, statecode);
-    console.log("state info inside table >>", stateInfo);
+    // console.log("state info inside table >>", stateInfo);
     if (stateInfo) {
       const {
         active,
@@ -71,7 +71,6 @@ class StateTable extends Component {
     // console.log("data in state ===>>", this.props.statewise);
 
     return (
-      
       <TableContainer
         component={Paper}
         className="container card-border-radius  "

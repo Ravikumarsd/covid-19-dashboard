@@ -5,7 +5,7 @@ util.getHoveredStateData = (statewise, statecode) => {
   try {
     stateInfo =
       statewise && statewise.find((state) => state.statecode === statecode);
-    console.log("stateInfo ", stateInfo);
+    // console.log("stateInfo ", stateInfo);
   } catch (e) {
     console.log("stateInfo err", e);
   }
