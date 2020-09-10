@@ -18,7 +18,7 @@ const DonutChart = ({
       },
       "border-width": 0,
       "toggle-action": "remove",
-      x: "70%",
+      x: "67%",
       y: "38%",
     },
     plot: {
