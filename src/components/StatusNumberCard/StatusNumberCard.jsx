@@ -8,21 +8,14 @@ import Typography from "@material-ui/core/Typography";
 import "./StatusNumberCard.css";
 
 export default function StatusNumberCard({ count, status, color }) {
+  status = status.toUpperCase();
   return (
-    <Card className={`root ${color} `}>
+    <Card id={status} className={`root ${color} `}>
       <CardContent>
-        <Typography
-          className={`title text-${color}`}
-          color="textPrimary"
-          gutterBottom
-        >
-          {status.toUpperCase()}
+        <Typography className={`title text-${color}`} color="textPrimary">
+          {status}
         </Typography>
-        <Typography
-          className={`sub-title text-${color}`}
-          color="textSecondary"
-          gutterBottom
-        >
+        <Typography className={`sub-title text-${color}`} color="textSecondary">
           {count}
         </Typography>
       </CardContent>
