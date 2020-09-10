@@ -8,6 +8,6 @@ To run the project execute the command:
 
 ### `npm start`
 
-## To see the demo click on the below link:
+#### To see the demo click on the below link:
 
 https://ravikumarsd.github.io/covid-19-dashboard/
