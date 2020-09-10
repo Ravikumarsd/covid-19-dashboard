@@ -7,3 +7,7 @@ To install the dependencies execute the command:
 To run the project execute the command:
 
 ### `npm start`
+
+to see the demo click on the below link:
+
+https://ravikumarsd.github.io/covid-19-dashboard/
